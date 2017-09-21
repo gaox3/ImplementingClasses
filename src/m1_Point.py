@@ -70,7 +70,6 @@ class Point(object):
         self.y = y
         self.total_moves = self.total_moves + 1
 
-
     def move_by(self, dx, dy):
         self.x = self.x + dx
         self.y = self.y + dy
@@ -893,7 +892,7 @@ def run_test_get_distance_traveled():
         print('Actual:', p4.get_distance_traveled())
     """
     # ------------------------------------------------------------------
-    # TODO: 11.  Follow the same instructions as in TODO 3 above,
+    # DONE: 11.  Follow the same instructions as in DONE 3 above,
     #    but for the  get_distance_traveled  method specified above.
     # ------------------------------------------------------------------
     print()
@@ -928,6 +927,7 @@ def run_test_get_distance_traveled():
     print('Actual:', p3.get_distance_traveled())
     print('Expected p4 has now traveled 100.0')
     print('Actual:', p4.get_distance_traveled())
+
 
 def run_test_closer_to():
     """
